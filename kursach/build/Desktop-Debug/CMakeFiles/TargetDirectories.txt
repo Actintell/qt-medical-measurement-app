@@ -1,0 +1,9 @@
+C:/Users/Kompik/Desktop/svp_kurs/kursach/build/Desktop-Debug/CMakeFiles/kursach.dir
+C:/Users/Kompik/Desktop/svp_kurs/kursach/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Kompik/Desktop/svp_kurs/kursach/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Kompik/Desktop/svp_kurs/kursach/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Kompik/Desktop/svp_kurs/kursach/build/Desktop-Debug/CMakeFiles/install.dir
+C:/Users/Kompik/Desktop/svp_kurs/kursach/build/Desktop-Debug/CMakeFiles/install/local.dir
+C:/Users/Kompik/Desktop/svp_kurs/kursach/build/Desktop-Debug/CMakeFiles/install/strip.dir
+C:/Users/Kompik/Desktop/svp_kurs/kursach/build/Desktop-Debug/CMakeFiles/kursach_autogen_timestamp_deps.dir
+C:/Users/Kompik/Desktop/svp_kurs/kursach/build/Desktop-Debug/CMakeFiles/kursach_autogen.dir
