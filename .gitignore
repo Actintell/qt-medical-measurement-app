@@ -1,0 +1,24 @@
+ # Build directories
+/build/
+/*.o
+/*.obj
+/*.exe
+
+# Qt creator
+.qtc_clangd/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+
+# Temporary files
+*.log
+*.bak
+*.swp
+
+# IDE files
+.idea/
+.vscode/
+
