@@ -7,6 +7,7 @@
 #include <QGraphicsLineItem>
 #include <QMouseEvent>
 #include <QPointF>
+#include <QLabel>  // Если нужно использовать QLabel
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -23,6 +24,7 @@ private slots:
     void loadImage();
     void setScaleFactor(double factor);
     void updateLength();
+    void resetImage();
 
 protected:
     void mousePressEvent(QMouseEvent *event) override;
@@ -34,6 +36,7 @@ private:
     QGraphicsLineItem *lineItem;
     QPointF startPoint;
     double scaleFactor;
+    QImage currentImage;
 };
 
 #endif // MAINWINDOW_H

@@ -19,8 +19,8 @@
      <rect>
       <x>0</x>
       <y>10</y>
-      <width>1251</width>
-      <height>701</height>
+      <width>1261</width>
+      <height>711</height>
      </rect>
     </property>
     <property name="palette">
@@ -2484,6 +2484,13 @@
        </property>
        <property name="text">
         <string>Length: 0.0 mm</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnReset">
+       <property name="text">
+        <string>Reset</string>
        </property>
       </widget>
      </item>

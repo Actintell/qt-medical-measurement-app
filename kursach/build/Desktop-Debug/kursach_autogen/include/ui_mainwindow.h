@@ -33,6 +33,7 @@ public:
     QPushButton *btnLoadImage;
     QDoubleSpinBox *spinScaleFactor;
     QLabel *lblLength;
+    QPushButton *btnReset;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -45,7 +46,7 @@ public:
         centralwidget->setObjectName("centralwidget");
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName("verticalLayoutWidget");
-        verticalLayoutWidget->setGeometry(QRect(0, 10, 1251, 701));
+        verticalLayoutWidget->setGeometry(QRect(0, 10, 1261, 711));
         QPalette palette;
         QBrush brush(QColor(36, 13, 36, 255));
         brush.setStyle(Qt::SolidPattern);
@@ -410,6 +411,11 @@ public:
 
         verticalLayout->addWidget(lblLength);
 
+        btnReset = new QPushButton(verticalLayoutWidget);
+        btnReset->setObjectName("btnReset");
+
+        verticalLayout->addWidget(btnReset);
+
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -429,6 +435,7 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         btnLoadImage->setText(QCoreApplication::translate("MainWindow", "Load Image", nullptr));
         lblLength->setText(QCoreApplication::translate("MainWindow", "Length: 0.0 mm", nullptr));
+        btnReset->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
     } // retranslateUi
 
 };
